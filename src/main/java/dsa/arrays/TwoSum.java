@@ -27,4 +27,5 @@ public class TwoSum {
         int[] result = sol.twoSum(new int[]{2, 7, 11, 15}, 9);
         System.out.println(result[0] + ", " + result[1]); // Expected: 0, 1
     }
+
 }
