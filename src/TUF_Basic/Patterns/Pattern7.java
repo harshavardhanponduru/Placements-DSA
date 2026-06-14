@@ -18,3 +18,10 @@ public class Pattern7 {
         p.pattern7(5);
     }
 }
+
+// Output: N = 5
+//     *
+//    ***
+//   *****
+//  *******
+// *********
