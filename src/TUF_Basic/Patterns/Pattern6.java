@@ -1,14 +1,11 @@
 package TUF_Basic.Patterns;
 
-public class Pattern6 
-{
+public class Pattern6 {
     public static void pattern6(int n) {
 
-        for(int i = 1; i <= n; i++)
-        {
+        for (int i = 1; i <= n; i++) {
             int k = 1;
-            for(int j = n; j >= i; j--)
-            {
+            for (int j = n; j >= i; j--) {
                 System.out.print(k);
                 ++k;
             }
@@ -16,8 +13,7 @@ public class Pattern6
         }
     }
 
-    public static void main(String[] args) 
-    {
+    public static void main(String[] args) {
         Pattern6.pattern6(5);
     }
 }

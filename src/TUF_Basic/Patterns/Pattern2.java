@@ -1,20 +1,24 @@
 package TUF_Basic.Patterns;
 
-public class Pattern2 
-{
+public class Pattern2 {
     public static void pattern2(int n) {
-        for(int i = 0; i < n; i++)
-        {
-            for(int j = 0; j <= i; j++)
-            {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j <= i; j++) {
                 System.out.print("*");
             }
             System.out.println();
         }
     }
 
-    public static void main(String[] args) 
-    {
+    public static void main(String[] args) {
         Pattern2.pattern2(5);
     }
 }
+
+// Output: N = 5
+// *
+// **
+// ***
+// ****
+// *****
+
