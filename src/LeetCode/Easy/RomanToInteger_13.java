@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class RomanToInteger_13 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Scanner hv = new Scanner(System.in);
         String roman = hv.nextLine();
         System.out.println(romanToInt(roman));
