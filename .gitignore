@@ -18,6 +18,9 @@
 *.zip
 *.tar.gz
 *.rar
+src/TUF_Basic/Basic_Arrays/
+src/TUF_Basic/Basic_Maths/
+src/TUF_Basic/Language_Basics/
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
