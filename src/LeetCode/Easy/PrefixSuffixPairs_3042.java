@@ -1,6 +1,6 @@
 package LeetCode.Easy;
 
-public class PrefixSuffixPairs_304 {
+public class PrefixSuffixPairs_3042 {
 
     public static boolean isPrefixAndSuffix(String str1, String str2) {
         // Check if str1 is both a prefix and a suffix of str2
