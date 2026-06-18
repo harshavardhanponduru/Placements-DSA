@@ -1,0 +1,22 @@
+package TCS_NQT.Numbers;
+
+public class ArmstrongNumber {
+
+    public static void main(String[] args) {
+        int number = 153;
+        boolean isArmstrong = isArmstrong(number);
+        System.out.println("Is the number " + number + " an Armstrong number? " + isArmstrong);
+    }
+
+    public static boolean isArmstrong(int number) {
+        int original = number;
+        int sum = 0;
+        int digits = String.valueOf(number).length();
+        while (number != 0) {
+            int digit = number % 10;
+            sum += Math.pow(digit, digits);
+            number /= 10;
+        }
+        return original == sum;
+    }
+}
