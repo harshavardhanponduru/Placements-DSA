@@ -1,5 +1,5 @@
 class Solution:
-    def removeBrackets(self, expr):
+    def removeBrackets(self, expr: str) -> str:
         result = ""
         for ch in expr:
             if ch != '(' and ch != ')':
