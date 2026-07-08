@@ -1,5 +1,4 @@
 package TCS_NQT.Arrays;
-
 class AverageOfArray {
     public double averageOfArray(int[] nums) {
         // Your code goes here
