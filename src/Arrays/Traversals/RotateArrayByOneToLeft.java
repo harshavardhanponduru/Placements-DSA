@@ -25,6 +25,6 @@ public class RotateArrayByOneToLeft
         for (int num : nums) {
             System.out.print(num + " ");
         }
-        System.out.println();
+        System.out.println(); 
     }
 }
